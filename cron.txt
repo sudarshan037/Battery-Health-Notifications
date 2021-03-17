@@ -1,0 +1,3 @@
+crontab -e
+
+* * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) ~/Documents/battery_notification/main.sh >> ~/Documents/battery_notification/log.txt 2>&1

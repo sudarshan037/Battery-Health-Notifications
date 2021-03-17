@@ -1,0 +1,4 @@
+Failed to open audio file.
+open(): No such file or directory
+/home/sdrsn037/Documents/battery_notification/main.sh: line 19: syntax error near unexpected token `elif'
+/home/sdrsn037/Documents/battery_notification/main.sh: line 19: `		elif [ "$battery_percent" -lt 30 ]; then'
